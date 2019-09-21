@@ -17,7 +17,7 @@ import pytest
 from .cached_property import cached_property, drop_cache
 import time
 
-sleep_time = 0.3
+sleep_time = 0.4
 
 @pytest.fixture
 def dummy():
