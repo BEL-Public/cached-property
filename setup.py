@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='cached_property',
-    version='1.0.0',
+    version='1.0.1',
     author='Justus Schwabedal',
     author_email='jschwabedal@belco.tech',
     maintainer='Justus Schwabedal',
