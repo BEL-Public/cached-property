@@ -1,14 +1,19 @@
-from distutils.core import setup
+import setuptools
 
-setup(
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+setuptools.setup(
     name='cached_property',
     version='1.0.1',
     author='Justus Schwabedal',
     author_email='jschwabedal@belco.tech',
     maintainer='Justus Schwabedal',
     maintainer_email='jschwabedal@belco.tech',
-    packages=['cached_property'],
+    description="A cached-property decorator.",
     long_description=open('README.md').read(),
+    long_description_content_type="text/markdown",
+    packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: Apache License :: Version 2.0",
