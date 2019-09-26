@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='cached_property',
+    name='cached_property_bel',
     version='1.0.1',
     author='Justus Schwabedal',
     author_email='jschwabedal@belco.tech',
